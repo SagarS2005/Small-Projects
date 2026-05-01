@@ -1,0 +1,47 @@
+h1,h2,p{
+  margin-top: 30px;
+    /* text-align: center; */
+}
+.container{
+  height: 420px;
+  width: 420px;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin: 20px auto;
+ 
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.box{
+  display: inline-block;
+  height: 180px;
+  width:180px;
+  border: 2px solid black;
+  margin: 15px  4px 4px 14px  ;
+}
+
+.box:hover{
+  /* transform: scale(30px,30px); */
+  height: 184px;
+  width: 184px;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+}
+.flash{
+  background-color: white;
+}
+

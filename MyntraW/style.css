@@ -18,6 +18,8 @@ header{
     display: flex;  
     justify-content: space-around;
     align-items: center;
+
+    position: sticky;
 }
 
 .header div{
@@ -66,8 +68,35 @@ nav  a:hover
     color: grey;
 }
 
+.subpage:hover{
+   
+    height: 400px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    float:left;
+    overflow: hidden;
+    /* color: aqua; */
+}
+
 .icons i{
     font-size: 2em;
     margin: 4px;
+    margin: 24px;
         
+}
+
+.icons i:hover{
+    cursor: pointer;
+    color: red;
+}
+main{
+    display: flex;
+    justify-content:
+}
+
+.ads{
+    height: 380px;
+    width: 90%;;
+    mar
+   background-image: url("https://tse3.mm.bing.net/th/id/OIP.CZOx_bxn6v--6AtWYTdTBAHaFp?pid=Api&P=0&h=180");
 }

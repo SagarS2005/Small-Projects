@@ -20,6 +20,7 @@ header{
     align-items: center;
     flex-direction: row;
     flex-wrap:wrap;
+    
 
 }
 
@@ -52,10 +53,17 @@ ul{
     display: flex;
     flex-direction: row;
     list-style: none;
+   
+   
     
     li{
         margin: 50px;
+        
+        /* border: 4px solid black; */
+        padding: 4px;
         font-size: 20px;
+        
+    
     }
     a{
         text-decoration: none;
@@ -63,6 +71,10 @@ ul{
 }
 
 .Home:hover{
+    margin: 40px;
+    margin-right: -10px;
+    padding: 0px;
+    border: 0;
     font-size: 24px;
     color: red;
 }
@@ -84,14 +96,15 @@ ul{
     color: red;
 }
 
+
 main{
     margin: 50px;
     display: flex;
     justify-content: space-evenly;          
-    /*it shows from where content will  be appear (center,space-between, space-around), it is attached with flex margin-up-line*/
+    /*it shows from where content will  be appear (center,space-between, space-around), it is attached with flex margin-up-line. It is for X - Axis*/
     /* flex-direction: row; */
     align-items: center;                  
-     /*it shows content on column bases(eg:- first_column, middle_column and third or last) */ 
+     /*it shows content on column bases(eg:- first_column, middle_column and third or last) or Y- Axis */ 
     flex-wrap: wrap;
         
 }
