@@ -3,5 +3,30 @@
     margin: 0;
 }
 body{
+    height: 100vh;
     background-color: bisque;
+}
+nav{
+     height: 40px; 
+     background-color: rgb(2, 2, 2) ;
+    .tabs{
+        padding: 10px;
+        text-decoration: none;
+        margin:0 50px 0 200px;
+    }
+}
+a{
+    color: rgb(255, 255, 255); text-decoration: none;
+    margin-right: 50px;
+}
+div{
+    display: inline-block;
+    margin: 10px 0 10px 10px;
+    /* border: 2px solid blue; */
+}
+footer{
+    height:30%;
+    border: 2px  solid black;
+    margin-top: 90%;
+    background-color: blueviolet;
 }
